@@ -18,7 +18,7 @@ public:
         } else {
             if(m_pSA) m_pGameBase = m_pSA;
             else m_pGameBase = m_pVC;
-            logger->Info("GtaSdk loaded successfully");
+            logger->Info("GtaSdk v%s loaded successfully", GetVersion());
         }
     }
 
