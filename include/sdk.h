@@ -1,7 +1,6 @@
 #ifndef SDKLIBRARY_H
 #define SDKLIBRARY_H
 
-#include "Events.h"
 #include "ISdk.h"
 
 class Sdk : public ISdk {
