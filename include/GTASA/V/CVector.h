@@ -12,8 +12,7 @@ public:
 	    this->y = Y;
 	    this->z = Z;
 	}
-	
-	inline CVector(CVector const& src)
+    inline CVector(CVector const& src)
 	{
         x = src.x; y = src.y; z = src.z;
     }
